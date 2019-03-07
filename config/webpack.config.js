@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '..', 'dist'),
     filename: '[name].[hash].bundle.js',
-    publicPath: '/',
+    publicPath: 'https://ishristov.github.io/frontend-task/',
   },
   module: {
     rules: [
